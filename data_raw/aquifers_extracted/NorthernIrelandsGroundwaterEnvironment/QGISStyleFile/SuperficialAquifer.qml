@@ -1,0 +1,1856 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis labelsEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" version="3.32.2-Lima" simplifyLocal="1" readOnly="0" maxScale="0" simplifyMaxScale="1" simplifyDrawingTol="1" minScale="100000000" simplifyAlgorithm="0" symbologyReferenceScale="-1" simplifyDrawingHints="1">
+  <flags>
+    <Identifiable>1</Identifiable>
+    <Removable>1</Removable>
+    <Searchable>1</Searchable>
+    <Private>0</Private>
+  </flags>
+  <temporal fixedDuration="0" durationField="" accumulate="0" startExpression="" enabled="0" limitMode="0" mode="0" durationUnit="min" endField="" startField="" endExpression="">
+    <fixedRange>
+      <start></start>
+      <end></end>
+    </fixedRange>
+  </temporal>
+  <elevation zoffset="0" extrusion="0" respectLayerSymbol="1" clamping="Terrain" symbology="Line" zscale="1" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" extrusionEnabled="0" binding="Centroid">
+    <data-defined-properties>
+      <Option type="Map">
+        <Option name="name" type="QString" value=""/>
+        <Option name="properties"/>
+        <Option name="type" type="QString" value="collection"/>
+      </Option>
+    </data-defined-properties>
+    <profileLineSymbol>
+      <symbol force_rhr="0" name="" type="line" frame_rate="10" alpha="1" is_animated="0" clip_to_extent="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{aa60ca55-b08e-4eb1-8de2-9e5dcd65c17a}" enabled="1" class="SimpleLine" pass="0" locked="0">
+          <Option type="Map">
+            <Option name="align_dash_pattern" type="QString" value="0"/>
+            <Option name="capstyle" type="QString" value="square"/>
+            <Option name="customdash" type="QString" value="5;2"/>
+            <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="customdash_unit" type="QString" value="MM"/>
+            <Option name="dash_pattern_offset" type="QString" value="0"/>
+            <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+            <Option name="draw_inside_polygon" type="QString" value="0"/>
+            <Option name="joinstyle" type="QString" value="bevel"/>
+            <Option name="line_color" type="QString" value="152,125,183,255"/>
+            <Option name="line_style" type="QString" value="solid"/>
+            <Option name="line_width" type="QString" value="0.6"/>
+            <Option name="line_width_unit" type="QString" value="MM"/>
+            <Option name="offset" type="QString" value="0"/>
+            <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="offset_unit" type="QString" value="MM"/>
+            <Option name="ring_filter" type="QString" value="0"/>
+            <Option name="trim_distance_end" type="QString" value="0"/>
+            <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+            <Option name="trim_distance_start" type="QString" value="0"/>
+            <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+            <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+            <Option name="use_custom_dash" type="QString" value="0"/>
+            <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileLineSymbol>
+    <profileFillSymbol>
+      <symbol force_rhr="0" name="" type="fill" frame_rate="10" alpha="1" is_animated="0" clip_to_extent="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{c53f9d61-4eaf-4d9d-8dc3-62bfbf4c8d36}" enabled="1" class="SimpleFill" pass="0" locked="0">
+          <Option type="Map">
+            <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="color" type="QString" value="152,125,183,255"/>
+            <Option name="joinstyle" type="QString" value="bevel"/>
+            <Option name="offset" type="QString" value="0,0"/>
+            <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="offset_unit" type="QString" value="MM"/>
+            <Option name="outline_color" type="QString" value="109,89,131,255"/>
+            <Option name="outline_style" type="QString" value="solid"/>
+            <Option name="outline_width" type="QString" value="0.2"/>
+            <Option name="outline_width_unit" type="QString" value="MM"/>
+            <Option name="style" type="QString" value="solid"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileFillSymbol>
+    <profileMarkerSymbol>
+      <symbol force_rhr="0" name="" type="marker" frame_rate="10" alpha="1" is_animated="0" clip_to_extent="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{d4239f18-f500-4132-be8c-fab2ef4c2b64}" enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <Option type="Map">
+            <Option name="angle" type="QString" value="0"/>
+            <Option name="cap_style" type="QString" value="square"/>
+            <Option name="color" type="QString" value="152,125,183,255"/>
+            <Option name="horizontal_anchor_point" type="QString" value="1"/>
+            <Option name="joinstyle" type="QString" value="bevel"/>
+            <Option name="name" type="QString" value="diamond"/>
+            <Option name="offset" type="QString" value="0,0"/>
+            <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="offset_unit" type="QString" value="MM"/>
+            <Option name="outline_color" type="QString" value="109,89,131,255"/>
+            <Option name="outline_style" type="QString" value="solid"/>
+            <Option name="outline_width" type="QString" value="0.2"/>
+            <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="outline_width_unit" type="QString" value="MM"/>
+            <Option name="scale_method" type="QString" value="diameter"/>
+            <Option name="size" type="QString" value="3"/>
+            <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="size_unit" type="QString" value="MM"/>
+            <Option name="vertical_anchor_point" type="QString" value="1"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileMarkerSymbol>
+  </elevation>
+  <renderer-v2 symbollevels="0" attr="Aquifer" type="categorizedSymbol" forceraster="0" enableorderby="0" referencescale="-1">
+    <categories>
+      <category render="true" symbol="0" type="string" label="Superficial Deposits" value="Superficial Deposits"/>
+    </categories>
+    <symbols>
+      <symbol force_rhr="0" name="0" type="fill" frame_rate="10" alpha="1" is_animated="0" clip_to_extent="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{cfd24451-ad18-4afa-91af-8fb5d5973943}" enabled="1" class="SimpleFill" pass="0" locked="0">
+          <Option type="Map">
+            <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="color" type="QString" value="171,225,250,255"/>
+            <Option name="joinstyle" type="QString" value="bevel"/>
+            <Option name="offset" type="QString" value="0,0"/>
+            <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="offset_unit" type="QString" value="MM"/>
+            <Option name="outline_color" type="QString" value="35,35,35,255"/>
+            <Option name="outline_style" type="QString" value="solid"/>
+            <Option name="outline_width" type="QString" value="0.26"/>
+            <Option name="outline_width_unit" type="QString" value="MM"/>
+            <Option name="style" type="QString" value="solid"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </symbols>
+    <source-symbol>
+      <symbol force_rhr="0" name="0" type="fill" frame_rate="10" alpha="1" is_animated="0" clip_to_extent="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{cfd24451-ad18-4afa-91af-8fb5d5973943}" enabled="1" class="SimpleFill" pass="0" locked="0">
+          <Option type="Map">
+            <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="color" type="QString" value="231,113,72,255"/>
+            <Option name="joinstyle" type="QString" value="bevel"/>
+            <Option name="offset" type="QString" value="0,0"/>
+            <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            <Option name="offset_unit" type="QString" value="MM"/>
+            <Option name="outline_color" type="QString" value="35,35,35,255"/>
+            <Option name="outline_style" type="QString" value="solid"/>
+            <Option name="outline_width" type="QString" value="0.26"/>
+            <Option name="outline_width_unit" type="QString" value="MM"/>
+            <Option name="style" type="QString" value="solid"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </source-symbol>
+    <colorramp name="[source]" type="randomcolors">
+      <Option/>
+    </colorramp>
+    <rotation/>
+    <sizescale/>
+  </renderer-v2>
+  <customproperties>
+    <Option type="Map">
+      <Option name="embeddedWidgets/count" type="int" value="0"/>
+      <Option name="variableNames"/>
+      <Option name="variableValues"/>
+    </Option>
+  </customproperties>
+  <blendMode>0</blendMode>
+  <featureBlendMode>0</featureBlendMode>
+  <layerOpacity>1</layerOpacity>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory backgroundAlpha="255" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" penWidth="0" opacity="1" spacing="5" maxScaleDenominator="1e+08" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" labelPlacementMethod="XHeight" barWidth="5" minimumSize="0" scaleBasedVisibility="0" rotationOffset="270" showAxis="1" height="15" width="15" direction="0" enabled="0" sizeType="MM" spacingUnit="MM" penColor="#000000" spacingUnitScale="3x:0,0,0,0,0,0" minScaleDenominator="0" backgroundColor="#ffffff" penAlpha="255">
+      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" strikethrough="0" style="" italic="0" bold="0" underline="0"/>
+      <axisSymbol>
+        <symbol force_rhr="0" name="" type="line" frame_rate="10" alpha="1" is_animated="0" clip_to_extent="1">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </data_defined_properties>
+          <layer id="{96a40378-f56b-4942-ba9c-4c1c0e244459}" enabled="1" class="SimpleLine" pass="0" locked="0">
+            <Option type="Map">
+              <Option name="align_dash_pattern" type="QString" value="0"/>
+              <Option name="capstyle" type="QString" value="square"/>
+              <Option name="customdash" type="QString" value="5;2"/>
+              <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="customdash_unit" type="QString" value="MM"/>
+              <Option name="dash_pattern_offset" type="QString" value="0"/>
+              <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+              <Option name="draw_inside_polygon" type="QString" value="0"/>
+              <Option name="joinstyle" type="QString" value="bevel"/>
+              <Option name="line_color" type="QString" value="35,35,35,255"/>
+              <Option name="line_style" type="QString" value="solid"/>
+              <Option name="line_width" type="QString" value="0.26"/>
+              <Option name="line_width_unit" type="QString" value="MM"/>
+              <Option name="offset" type="QString" value="0"/>
+              <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="offset_unit" type="QString" value="MM"/>
+              <Option name="ring_filter" type="QString" value="0"/>
+              <Option name="trim_distance_end" type="QString" value="0"/>
+              <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+              <Option name="trim_distance_start" type="QString" value="0"/>
+              <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+              <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+              <Option name="use_custom_dash" type="QString" value="0"/>
+              <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </axisSymbol>
+    </DiagramCategory>
+  </SingleCategoryDiagramRenderer>
+  <DiagramLayerSettings priority="0" zIndex="0" showAll="1" dist="0" placement="1" linePlacementFlags="18" obstacle="0">
+    <properties>
+      <Option type="Map">
+        <Option name="name" type="QString" value=""/>
+        <Option name="properties"/>
+        <Option name="type" type="QString" value="collection"/>
+      </Option>
+    </properties>
+  </DiagramLayerSettings>
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+    <activeChecks/>
+    <checkConfiguration type="Map">
+      <Option name="QgsGeometryGapCheck" type="Map">
+        <Option name="allowedGapsBuffer" type="double" value="0"/>
+        <Option name="allowedGapsEnabled" type="bool" value="false"/>
+        <Option name="allowedGapsLayer" type="QString" value=""/>
+      </Option>
+    </checkConfiguration>
+  </geometryOptions>
+  <legend type="default-vector" showLabelLegend="0"/>
+  <referencedLayers/>
+  <fieldConfiguration>
+    <field name="id" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Aquifer" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Aquifer_Age" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Aquifer_Subgroup" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Aq_Pro_Pot" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Aq_Type" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Chemistry" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Colour_RGB" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Flow_Depth" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Flow_Length" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Flow_Rate" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Al_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Al_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Al_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Al_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Ca_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Ca_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Ca_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Ca_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Cl_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Cl_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Cl_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Cl_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="DO_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="DO_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="DO_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="DO_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Fe_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Fe_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Fe_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Fe_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HC_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HC_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HC_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HCO3_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HCO3_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HCO3_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="HCO3_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="K_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="K_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="K_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="K_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mg_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mg_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mg_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mg_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mn_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mn_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mn_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Mn_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Na_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Na_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Na_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="NO3_N_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="NO3_N_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="NO3_N_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="NO3_N_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Na_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="P_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="P_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="P_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="P_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="pH_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="pH_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="pH_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="pH_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Por_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Por_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Por_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SEC_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SEC_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SEC_70" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SEC_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SO4_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SO4_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SO4_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SO4_n" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="S_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="S_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="S_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SC_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SC_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="SC_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="T_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="T_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="T_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Y_25" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Y_50" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Y_75" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Metadata" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Publication_url" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="AqVersion" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="Published" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+  </fieldConfiguration>
+  <aliases>
+    <alias field="id" name="" index="0"/>
+    <alias field="Aquifer" name="" index="1"/>
+    <alias field="Aquifer_Age" name="" index="2"/>
+    <alias field="Aquifer_Subgroup" name="" index="3"/>
+    <alias field="Aq_Pro_Pot" name="" index="4"/>
+    <alias field="Aq_Type" name="" index="5"/>
+    <alias field="Chemistry" name="" index="6"/>
+    <alias field="Colour_RGB" name="" index="7"/>
+    <alias field="Flow_Depth" name="" index="8"/>
+    <alias field="Flow_Length" name="" index="9"/>
+    <alias field="Flow_Rate" name="" index="10"/>
+    <alias field="Al_25" name="" index="11"/>
+    <alias field="Al_50" name="" index="12"/>
+    <alias field="Al_75" name="" index="13"/>
+    <alias field="Al_n" name="" index="14"/>
+    <alias field="Ca_25" name="" index="15"/>
+    <alias field="Ca_50" name="" index="16"/>
+    <alias field="Ca_75" name="" index="17"/>
+    <alias field="Ca_n" name="" index="18"/>
+    <alias field="Cl_25" name="" index="19"/>
+    <alias field="Cl_50" name="" index="20"/>
+    <alias field="Cl_75" name="" index="21"/>
+    <alias field="Cl_n" name="" index="22"/>
+    <alias field="DO_25" name="" index="23"/>
+    <alias field="DO_50" name="" index="24"/>
+    <alias field="DO_75" name="" index="25"/>
+    <alias field="DO_n" name="" index="26"/>
+    <alias field="Fe_25" name="" index="27"/>
+    <alias field="Fe_50" name="" index="28"/>
+    <alias field="Fe_75" name="" index="29"/>
+    <alias field="Fe_n" name="" index="30"/>
+    <alias field="HC_25" name="" index="31"/>
+    <alias field="HC_50" name="" index="32"/>
+    <alias field="HC_75" name="" index="33"/>
+    <alias field="HCO3_25" name="" index="34"/>
+    <alias field="HCO3_50" name="" index="35"/>
+    <alias field="HCO3_75" name="" index="36"/>
+    <alias field="HCO3_n" name="" index="37"/>
+    <alias field="K_25" name="" index="38"/>
+    <alias field="K_50" name="" index="39"/>
+    <alias field="K_75" name="" index="40"/>
+    <alias field="K_n" name="" index="41"/>
+    <alias field="Mg_25" name="" index="42"/>
+    <alias field="Mg_50" name="" index="43"/>
+    <alias field="Mg_75" name="" index="44"/>
+    <alias field="Mg_n" name="" index="45"/>
+    <alias field="Mn_25" name="" index="46"/>
+    <alias field="Mn_50" name="" index="47"/>
+    <alias field="Mn_75" name="" index="48"/>
+    <alias field="Mn_n" name="" index="49"/>
+    <alias field="Na_25" name="" index="50"/>
+    <alias field="Na_50" name="" index="51"/>
+    <alias field="Na_75" name="" index="52"/>
+    <alias field="NO3_N_25" name="" index="53"/>
+    <alias field="NO3_N_50" name="" index="54"/>
+    <alias field="NO3_N_75" name="" index="55"/>
+    <alias field="NO3_N_n" name="" index="56"/>
+    <alias field="Na_n" name="" index="57"/>
+    <alias field="P_25" name="" index="58"/>
+    <alias field="P_50" name="" index="59"/>
+    <alias field="P_75" name="" index="60"/>
+    <alias field="P_n" name="" index="61"/>
+    <alias field="pH_25" name="" index="62"/>
+    <alias field="pH_50" name="" index="63"/>
+    <alias field="pH_75" name="" index="64"/>
+    <alias field="pH_n" name="" index="65"/>
+    <alias field="Por_25" name="" index="66"/>
+    <alias field="Por_50" name="" index="67"/>
+    <alias field="Por_75" name="" index="68"/>
+    <alias field="SEC_25" name="" index="69"/>
+    <alias field="SEC_50" name="" index="70"/>
+    <alias field="SEC_70" name="" index="71"/>
+    <alias field="SEC_n" name="" index="72"/>
+    <alias field="SO4_25" name="" index="73"/>
+    <alias field="SO4_50" name="" index="74"/>
+    <alias field="SO4_75" name="" index="75"/>
+    <alias field="SO4_n" name="" index="76"/>
+    <alias field="S_25" name="" index="77"/>
+    <alias field="S_50" name="" index="78"/>
+    <alias field="S_75" name="" index="79"/>
+    <alias field="SC_25" name="" index="80"/>
+    <alias field="SC_50" name="" index="81"/>
+    <alias field="SC_75" name="" index="82"/>
+    <alias field="T_25" name="" index="83"/>
+    <alias field="T_50" name="" index="84"/>
+    <alias field="T_75" name="" index="85"/>
+    <alias field="Y_25" name="" index="86"/>
+    <alias field="Y_50" name="" index="87"/>
+    <alias field="Y_75" name="" index="88"/>
+    <alias field="Metadata" name="" index="89"/>
+    <alias field="Publication_url" name="" index="90"/>
+    <alias field="AqVersion" name="" index="91"/>
+    <alias field="Published" name="" index="92"/>
+  </aliases>
+  <splitPolicies>
+    <policy policy="Duplicate" field="id"/>
+    <policy policy="Duplicate" field="Aquifer"/>
+    <policy policy="Duplicate" field="Aquifer_Age"/>
+    <policy policy="Duplicate" field="Aquifer_Subgroup"/>
+    <policy policy="Duplicate" field="Aq_Pro_Pot"/>
+    <policy policy="Duplicate" field="Aq_Type"/>
+    <policy policy="Duplicate" field="Chemistry"/>
+    <policy policy="Duplicate" field="Colour_RGB"/>
+    <policy policy="Duplicate" field="Flow_Depth"/>
+    <policy policy="Duplicate" field="Flow_Length"/>
+    <policy policy="Duplicate" field="Flow_Rate"/>
+    <policy policy="Duplicate" field="Al_25"/>
+    <policy policy="Duplicate" field="Al_50"/>
+    <policy policy="Duplicate" field="Al_75"/>
+    <policy policy="Duplicate" field="Al_n"/>
+    <policy policy="Duplicate" field="Ca_25"/>
+    <policy policy="Duplicate" field="Ca_50"/>
+    <policy policy="Duplicate" field="Ca_75"/>
+    <policy policy="Duplicate" field="Ca_n"/>
+    <policy policy="Duplicate" field="Cl_25"/>
+    <policy policy="Duplicate" field="Cl_50"/>
+    <policy policy="Duplicate" field="Cl_75"/>
+    <policy policy="Duplicate" field="Cl_n"/>
+    <policy policy="Duplicate" field="DO_25"/>
+    <policy policy="Duplicate" field="DO_50"/>
+    <policy policy="Duplicate" field="DO_75"/>
+    <policy policy="Duplicate" field="DO_n"/>
+    <policy policy="Duplicate" field="Fe_25"/>
+    <policy policy="Duplicate" field="Fe_50"/>
+    <policy policy="Duplicate" field="Fe_75"/>
+    <policy policy="Duplicate" field="Fe_n"/>
+    <policy policy="Duplicate" field="HC_25"/>
+    <policy policy="Duplicate" field="HC_50"/>
+    <policy policy="Duplicate" field="HC_75"/>
+    <policy policy="Duplicate" field="HCO3_25"/>
+    <policy policy="Duplicate" field="HCO3_50"/>
+    <policy policy="Duplicate" field="HCO3_75"/>
+    <policy policy="Duplicate" field="HCO3_n"/>
+    <policy policy="Duplicate" field="K_25"/>
+    <policy policy="Duplicate" field="K_50"/>
+    <policy policy="Duplicate" field="K_75"/>
+    <policy policy="Duplicate" field="K_n"/>
+    <policy policy="Duplicate" field="Mg_25"/>
+    <policy policy="Duplicate" field="Mg_50"/>
+    <policy policy="Duplicate" field="Mg_75"/>
+    <policy policy="Duplicate" field="Mg_n"/>
+    <policy policy="Duplicate" field="Mn_25"/>
+    <policy policy="Duplicate" field="Mn_50"/>
+    <policy policy="Duplicate" field="Mn_75"/>
+    <policy policy="Duplicate" field="Mn_n"/>
+    <policy policy="Duplicate" field="Na_25"/>
+    <policy policy="Duplicate" field="Na_50"/>
+    <policy policy="Duplicate" field="Na_75"/>
+    <policy policy="Duplicate" field="NO3_N_25"/>
+    <policy policy="Duplicate" field="NO3_N_50"/>
+    <policy policy="Duplicate" field="NO3_N_75"/>
+    <policy policy="Duplicate" field="NO3_N_n"/>
+    <policy policy="Duplicate" field="Na_n"/>
+    <policy policy="Duplicate" field="P_25"/>
+    <policy policy="Duplicate" field="P_50"/>
+    <policy policy="Duplicate" field="P_75"/>
+    <policy policy="Duplicate" field="P_n"/>
+    <policy policy="Duplicate" field="pH_25"/>
+    <policy policy="Duplicate" field="pH_50"/>
+    <policy policy="Duplicate" field="pH_75"/>
+    <policy policy="Duplicate" field="pH_n"/>
+    <policy policy="Duplicate" field="Por_25"/>
+    <policy policy="Duplicate" field="Por_50"/>
+    <policy policy="Duplicate" field="Por_75"/>
+    <policy policy="Duplicate" field="SEC_25"/>
+    <policy policy="Duplicate" field="SEC_50"/>
+    <policy policy="Duplicate" field="SEC_70"/>
+    <policy policy="Duplicate" field="SEC_n"/>
+    <policy policy="Duplicate" field="SO4_25"/>
+    <policy policy="Duplicate" field="SO4_50"/>
+    <policy policy="Duplicate" field="SO4_75"/>
+    <policy policy="Duplicate" field="SO4_n"/>
+    <policy policy="Duplicate" field="S_25"/>
+    <policy policy="Duplicate" field="S_50"/>
+    <policy policy="Duplicate" field="S_75"/>
+    <policy policy="Duplicate" field="SC_25"/>
+    <policy policy="Duplicate" field="SC_50"/>
+    <policy policy="Duplicate" field="SC_75"/>
+    <policy policy="Duplicate" field="T_25"/>
+    <policy policy="Duplicate" field="T_50"/>
+    <policy policy="Duplicate" field="T_75"/>
+    <policy policy="Duplicate" field="Y_25"/>
+    <policy policy="Duplicate" field="Y_50"/>
+    <policy policy="Duplicate" field="Y_75"/>
+    <policy policy="Duplicate" field="Metadata"/>
+    <policy policy="Duplicate" field="Publication_url"/>
+    <policy policy="Duplicate" field="AqVersion"/>
+    <policy policy="Duplicate" field="Published"/>
+  </splitPolicies>
+  <defaults>
+    <default field="id" applyOnUpdate="0" expression=""/>
+    <default field="Aquifer" applyOnUpdate="0" expression=""/>
+    <default field="Aquifer_Age" applyOnUpdate="0" expression=""/>
+    <default field="Aquifer_Subgroup" applyOnUpdate="0" expression=""/>
+    <default field="Aq_Pro_Pot" applyOnUpdate="0" expression=""/>
+    <default field="Aq_Type" applyOnUpdate="0" expression=""/>
+    <default field="Chemistry" applyOnUpdate="0" expression=""/>
+    <default field="Colour_RGB" applyOnUpdate="0" expression=""/>
+    <default field="Flow_Depth" applyOnUpdate="0" expression=""/>
+    <default field="Flow_Length" applyOnUpdate="0" expression=""/>
+    <default field="Flow_Rate" applyOnUpdate="0" expression=""/>
+    <default field="Al_25" applyOnUpdate="0" expression=""/>
+    <default field="Al_50" applyOnUpdate="0" expression=""/>
+    <default field="Al_75" applyOnUpdate="0" expression=""/>
+    <default field="Al_n" applyOnUpdate="0" expression=""/>
+    <default field="Ca_25" applyOnUpdate="0" expression=""/>
+    <default field="Ca_50" applyOnUpdate="0" expression=""/>
+    <default field="Ca_75" applyOnUpdate="0" expression=""/>
+    <default field="Ca_n" applyOnUpdate="0" expression=""/>
+    <default field="Cl_25" applyOnUpdate="0" expression=""/>
+    <default field="Cl_50" applyOnUpdate="0" expression=""/>
+    <default field="Cl_75" applyOnUpdate="0" expression=""/>
+    <default field="Cl_n" applyOnUpdate="0" expression=""/>
+    <default field="DO_25" applyOnUpdate="0" expression=""/>
+    <default field="DO_50" applyOnUpdate="0" expression=""/>
+    <default field="DO_75" applyOnUpdate="0" expression=""/>
+    <default field="DO_n" applyOnUpdate="0" expression=""/>
+    <default field="Fe_25" applyOnUpdate="0" expression=""/>
+    <default field="Fe_50" applyOnUpdate="0" expression=""/>
+    <default field="Fe_75" applyOnUpdate="0" expression=""/>
+    <default field="Fe_n" applyOnUpdate="0" expression=""/>
+    <default field="HC_25" applyOnUpdate="0" expression=""/>
+    <default field="HC_50" applyOnUpdate="0" expression=""/>
+    <default field="HC_75" applyOnUpdate="0" expression=""/>
+    <default field="HCO3_25" applyOnUpdate="0" expression=""/>
+    <default field="HCO3_50" applyOnUpdate="0" expression=""/>
+    <default field="HCO3_75" applyOnUpdate="0" expression=""/>
+    <default field="HCO3_n" applyOnUpdate="0" expression=""/>
+    <default field="K_25" applyOnUpdate="0" expression=""/>
+    <default field="K_50" applyOnUpdate="0" expression=""/>
+    <default field="K_75" applyOnUpdate="0" expression=""/>
+    <default field="K_n" applyOnUpdate="0" expression=""/>
+    <default field="Mg_25" applyOnUpdate="0" expression=""/>
+    <default field="Mg_50" applyOnUpdate="0" expression=""/>
+    <default field="Mg_75" applyOnUpdate="0" expression=""/>
+    <default field="Mg_n" applyOnUpdate="0" expression=""/>
+    <default field="Mn_25" applyOnUpdate="0" expression=""/>
+    <default field="Mn_50" applyOnUpdate="0" expression=""/>
+    <default field="Mn_75" applyOnUpdate="0" expression=""/>
+    <default field="Mn_n" applyOnUpdate="0" expression=""/>
+    <default field="Na_25" applyOnUpdate="0" expression=""/>
+    <default field="Na_50" applyOnUpdate="0" expression=""/>
+    <default field="Na_75" applyOnUpdate="0" expression=""/>
+    <default field="NO3_N_25" applyOnUpdate="0" expression=""/>
+    <default field="NO3_N_50" applyOnUpdate="0" expression=""/>
+    <default field="NO3_N_75" applyOnUpdate="0" expression=""/>
+    <default field="NO3_N_n" applyOnUpdate="0" expression=""/>
+    <default field="Na_n" applyOnUpdate="0" expression=""/>
+    <default field="P_25" applyOnUpdate="0" expression=""/>
+    <default field="P_50" applyOnUpdate="0" expression=""/>
+    <default field="P_75" applyOnUpdate="0" expression=""/>
+    <default field="P_n" applyOnUpdate="0" expression=""/>
+    <default field="pH_25" applyOnUpdate="0" expression=""/>
+    <default field="pH_50" applyOnUpdate="0" expression=""/>
+    <default field="pH_75" applyOnUpdate="0" expression=""/>
+    <default field="pH_n" applyOnUpdate="0" expression=""/>
+    <default field="Por_25" applyOnUpdate="0" expression=""/>
+    <default field="Por_50" applyOnUpdate="0" expression=""/>
+    <default field="Por_75" applyOnUpdate="0" expression=""/>
+    <default field="SEC_25" applyOnUpdate="0" expression=""/>
+    <default field="SEC_50" applyOnUpdate="0" expression=""/>
+    <default field="SEC_70" applyOnUpdate="0" expression=""/>
+    <default field="SEC_n" applyOnUpdate="0" expression=""/>
+    <default field="SO4_25" applyOnUpdate="0" expression=""/>
+    <default field="SO4_50" applyOnUpdate="0" expression=""/>
+    <default field="SO4_75" applyOnUpdate="0" expression=""/>
+    <default field="SO4_n" applyOnUpdate="0" expression=""/>
+    <default field="S_25" applyOnUpdate="0" expression=""/>
+    <default field="S_50" applyOnUpdate="0" expression=""/>
+    <default field="S_75" applyOnUpdate="0" expression=""/>
+    <default field="SC_25" applyOnUpdate="0" expression=""/>
+    <default field="SC_50" applyOnUpdate="0" expression=""/>
+    <default field="SC_75" applyOnUpdate="0" expression=""/>
+    <default field="T_25" applyOnUpdate="0" expression=""/>
+    <default field="T_50" applyOnUpdate="0" expression=""/>
+    <default field="T_75" applyOnUpdate="0" expression=""/>
+    <default field="Y_25" applyOnUpdate="0" expression=""/>
+    <default field="Y_50" applyOnUpdate="0" expression=""/>
+    <default field="Y_75" applyOnUpdate="0" expression=""/>
+    <default field="Metadata" applyOnUpdate="0" expression=""/>
+    <default field="Publication_url" applyOnUpdate="0" expression=""/>
+    <default field="AqVersion" applyOnUpdate="0" expression=""/>
+    <default field="Published" applyOnUpdate="0" expression=""/>
+  </defaults>
+  <constraints>
+    <constraint field="id" exp_strength="0" notnull_strength="1" constraints="3" unique_strength="1"/>
+    <constraint field="Aquifer" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Aquifer_Age" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Aquifer_Subgroup" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Aq_Pro_Pot" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Aq_Type" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Chemistry" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Colour_RGB" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Flow_Depth" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Flow_Length" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Flow_Rate" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Al_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Al_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Al_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Al_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Ca_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Ca_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Ca_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Ca_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Cl_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Cl_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Cl_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Cl_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="DO_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="DO_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="DO_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="DO_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Fe_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Fe_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Fe_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Fe_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HC_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HC_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HC_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HCO3_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HCO3_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HCO3_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="HCO3_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="K_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="K_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="K_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="K_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mg_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mg_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mg_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mg_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mn_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mn_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mn_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Mn_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Na_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Na_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Na_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="NO3_N_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="NO3_N_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="NO3_N_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="NO3_N_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Na_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="P_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="P_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="P_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="P_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="pH_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="pH_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="pH_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="pH_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Por_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Por_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Por_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SEC_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SEC_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SEC_70" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SEC_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SO4_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SO4_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SO4_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SO4_n" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="S_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="S_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="S_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SC_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SC_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="SC_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="T_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="T_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="T_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Y_25" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Y_50" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Y_75" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Metadata" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Publication_url" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="AqVersion" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+    <constraint field="Published" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+  </constraints>
+  <constraintExpressions>
+    <constraint desc="" field="id" exp=""/>
+    <constraint desc="" field="Aquifer" exp=""/>
+    <constraint desc="" field="Aquifer_Age" exp=""/>
+    <constraint desc="" field="Aquifer_Subgroup" exp=""/>
+    <constraint desc="" field="Aq_Pro_Pot" exp=""/>
+    <constraint desc="" field="Aq_Type" exp=""/>
+    <constraint desc="" field="Chemistry" exp=""/>
+    <constraint desc="" field="Colour_RGB" exp=""/>
+    <constraint desc="" field="Flow_Depth" exp=""/>
+    <constraint desc="" field="Flow_Length" exp=""/>
+    <constraint desc="" field="Flow_Rate" exp=""/>
+    <constraint desc="" field="Al_25" exp=""/>
+    <constraint desc="" field="Al_50" exp=""/>
+    <constraint desc="" field="Al_75" exp=""/>
+    <constraint desc="" field="Al_n" exp=""/>
+    <constraint desc="" field="Ca_25" exp=""/>
+    <constraint desc="" field="Ca_50" exp=""/>
+    <constraint desc="" field="Ca_75" exp=""/>
+    <constraint desc="" field="Ca_n" exp=""/>
+    <constraint desc="" field="Cl_25" exp=""/>
+    <constraint desc="" field="Cl_50" exp=""/>
+    <constraint desc="" field="Cl_75" exp=""/>
+    <constraint desc="" field="Cl_n" exp=""/>
+    <constraint desc="" field="DO_25" exp=""/>
+    <constraint desc="" field="DO_50" exp=""/>
+    <constraint desc="" field="DO_75" exp=""/>
+    <constraint desc="" field="DO_n" exp=""/>
+    <constraint desc="" field="Fe_25" exp=""/>
+    <constraint desc="" field="Fe_50" exp=""/>
+    <constraint desc="" field="Fe_75" exp=""/>
+    <constraint desc="" field="Fe_n" exp=""/>
+    <constraint desc="" field="HC_25" exp=""/>
+    <constraint desc="" field="HC_50" exp=""/>
+    <constraint desc="" field="HC_75" exp=""/>
+    <constraint desc="" field="HCO3_25" exp=""/>
+    <constraint desc="" field="HCO3_50" exp=""/>
+    <constraint desc="" field="HCO3_75" exp=""/>
+    <constraint desc="" field="HCO3_n" exp=""/>
+    <constraint desc="" field="K_25" exp=""/>
+    <constraint desc="" field="K_50" exp=""/>
+    <constraint desc="" field="K_75" exp=""/>
+    <constraint desc="" field="K_n" exp=""/>
+    <constraint desc="" field="Mg_25" exp=""/>
+    <constraint desc="" field="Mg_50" exp=""/>
+    <constraint desc="" field="Mg_75" exp=""/>
+    <constraint desc="" field="Mg_n" exp=""/>
+    <constraint desc="" field="Mn_25" exp=""/>
+    <constraint desc="" field="Mn_50" exp=""/>
+    <constraint desc="" field="Mn_75" exp=""/>
+    <constraint desc="" field="Mn_n" exp=""/>
+    <constraint desc="" field="Na_25" exp=""/>
+    <constraint desc="" field="Na_50" exp=""/>
+    <constraint desc="" field="Na_75" exp=""/>
+    <constraint desc="" field="NO3_N_25" exp=""/>
+    <constraint desc="" field="NO3_N_50" exp=""/>
+    <constraint desc="" field="NO3_N_75" exp=""/>
+    <constraint desc="" field="NO3_N_n" exp=""/>
+    <constraint desc="" field="Na_n" exp=""/>
+    <constraint desc="" field="P_25" exp=""/>
+    <constraint desc="" field="P_50" exp=""/>
+    <constraint desc="" field="P_75" exp=""/>
+    <constraint desc="" field="P_n" exp=""/>
+    <constraint desc="" field="pH_25" exp=""/>
+    <constraint desc="" field="pH_50" exp=""/>
+    <constraint desc="" field="pH_75" exp=""/>
+    <constraint desc="" field="pH_n" exp=""/>
+    <constraint desc="" field="Por_25" exp=""/>
+    <constraint desc="" field="Por_50" exp=""/>
+    <constraint desc="" field="Por_75" exp=""/>
+    <constraint desc="" field="SEC_25" exp=""/>
+    <constraint desc="" field="SEC_50" exp=""/>
+    <constraint desc="" field="SEC_70" exp=""/>
+    <constraint desc="" field="SEC_n" exp=""/>
+    <constraint desc="" field="SO4_25" exp=""/>
+    <constraint desc="" field="SO4_50" exp=""/>
+    <constraint desc="" field="SO4_75" exp=""/>
+    <constraint desc="" field="SO4_n" exp=""/>
+    <constraint desc="" field="S_25" exp=""/>
+    <constraint desc="" field="S_50" exp=""/>
+    <constraint desc="" field="S_75" exp=""/>
+    <constraint desc="" field="SC_25" exp=""/>
+    <constraint desc="" field="SC_50" exp=""/>
+    <constraint desc="" field="SC_75" exp=""/>
+    <constraint desc="" field="T_25" exp=""/>
+    <constraint desc="" field="T_50" exp=""/>
+    <constraint desc="" field="T_75" exp=""/>
+    <constraint desc="" field="Y_25" exp=""/>
+    <constraint desc="" field="Y_50" exp=""/>
+    <constraint desc="" field="Y_75" exp=""/>
+    <constraint desc="" field="Metadata" exp=""/>
+    <constraint desc="" field="Publication_url" exp=""/>
+    <constraint desc="" field="AqVersion" exp=""/>
+    <constraint desc="" field="Published" exp=""/>
+  </constraintExpressions>
+  <expressionfields/>
+  <attributeactions>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+  </attributeactions>
+  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+    <columns>
+      <column width="-1" name="id" hidden="0" type="field"/>
+      <column width="-1" name="Aquifer" hidden="0" type="field"/>
+      <column width="-1" name="Aquifer_Age" hidden="0" type="field"/>
+      <column width="-1" name="Aquifer_Subgroup" hidden="0" type="field"/>
+      <column width="-1" name="Aq_Pro_Pot" hidden="0" type="field"/>
+      <column width="-1" name="Aq_Type" hidden="0" type="field"/>
+      <column width="-1" name="Chemistry" hidden="0" type="field"/>
+      <column width="-1" name="Colour_RGB" hidden="0" type="field"/>
+      <column width="-1" name="Flow_Depth" hidden="0" type="field"/>
+      <column width="-1" name="Flow_Length" hidden="0" type="field"/>
+      <column width="-1" name="Flow_Rate" hidden="0" type="field"/>
+      <column width="-1" name="Al_25" hidden="0" type="field"/>
+      <column width="-1" name="Al_50" hidden="0" type="field"/>
+      <column width="-1" name="Al_75" hidden="0" type="field"/>
+      <column width="-1" name="Al_n" hidden="0" type="field"/>
+      <column width="-1" name="Ca_25" hidden="0" type="field"/>
+      <column width="-1" name="Ca_50" hidden="0" type="field"/>
+      <column width="-1" name="Ca_75" hidden="0" type="field"/>
+      <column width="-1" name="Ca_n" hidden="0" type="field"/>
+      <column width="-1" name="Cl_25" hidden="0" type="field"/>
+      <column width="-1" name="Cl_50" hidden="0" type="field"/>
+      <column width="-1" name="Cl_75" hidden="0" type="field"/>
+      <column width="-1" name="Cl_n" hidden="0" type="field"/>
+      <column width="-1" name="DO_25" hidden="0" type="field"/>
+      <column width="-1" name="DO_50" hidden="0" type="field"/>
+      <column width="-1" name="DO_75" hidden="0" type="field"/>
+      <column width="-1" name="DO_n" hidden="0" type="field"/>
+      <column width="-1" name="Fe_25" hidden="0" type="field"/>
+      <column width="-1" name="Fe_50" hidden="0" type="field"/>
+      <column width="-1" name="Fe_75" hidden="0" type="field"/>
+      <column width="-1" name="Fe_n" hidden="0" type="field"/>
+      <column width="-1" name="HC_25" hidden="0" type="field"/>
+      <column width="-1" name="HC_50" hidden="0" type="field"/>
+      <column width="-1" name="HC_75" hidden="0" type="field"/>
+      <column width="-1" name="HCO3_25" hidden="0" type="field"/>
+      <column width="-1" name="HCO3_50" hidden="0" type="field"/>
+      <column width="-1" name="HCO3_75" hidden="0" type="field"/>
+      <column width="-1" name="HCO3_n" hidden="0" type="field"/>
+      <column width="-1" name="K_25" hidden="0" type="field"/>
+      <column width="-1" name="K_50" hidden="0" type="field"/>
+      <column width="-1" name="K_75" hidden="0" type="field"/>
+      <column width="-1" name="K_n" hidden="0" type="field"/>
+      <column width="-1" name="Mg_25" hidden="0" type="field"/>
+      <column width="-1" name="Mg_50" hidden="0" type="field"/>
+      <column width="-1" name="Mg_75" hidden="0" type="field"/>
+      <column width="-1" name="Mg_n" hidden="0" type="field"/>
+      <column width="-1" name="Mn_25" hidden="0" type="field"/>
+      <column width="-1" name="Mn_50" hidden="0" type="field"/>
+      <column width="-1" name="Mn_75" hidden="0" type="field"/>
+      <column width="-1" name="Mn_n" hidden="0" type="field"/>
+      <column width="-1" name="Na_25" hidden="0" type="field"/>
+      <column width="-1" name="Na_50" hidden="0" type="field"/>
+      <column width="-1" name="Na_75" hidden="0" type="field"/>
+      <column width="-1" name="NO3_N_25" hidden="0" type="field"/>
+      <column width="-1" name="NO3_N_50" hidden="0" type="field"/>
+      <column width="-1" name="NO3_N_75" hidden="0" type="field"/>
+      <column width="-1" name="NO3_N_n" hidden="0" type="field"/>
+      <column width="-1" name="Na_n" hidden="0" type="field"/>
+      <column width="-1" name="P_25" hidden="0" type="field"/>
+      <column width="-1" name="P_50" hidden="0" type="field"/>
+      <column width="-1" name="P_75" hidden="0" type="field"/>
+      <column width="-1" name="P_n" hidden="0" type="field"/>
+      <column width="-1" name="pH_25" hidden="0" type="field"/>
+      <column width="-1" name="pH_50" hidden="0" type="field"/>
+      <column width="-1" name="pH_75" hidden="0" type="field"/>
+      <column width="-1" name="pH_n" hidden="0" type="field"/>
+      <column width="-1" name="Por_25" hidden="0" type="field"/>
+      <column width="-1" name="Por_50" hidden="0" type="field"/>
+      <column width="-1" name="Por_75" hidden="0" type="field"/>
+      <column width="-1" name="SEC_25" hidden="0" type="field"/>
+      <column width="-1" name="SEC_50" hidden="0" type="field"/>
+      <column width="-1" name="SEC_70" hidden="0" type="field"/>
+      <column width="-1" name="SEC_n" hidden="0" type="field"/>
+      <column width="-1" name="SO4_25" hidden="0" type="field"/>
+      <column width="-1" name="SO4_50" hidden="0" type="field"/>
+      <column width="-1" name="SO4_75" hidden="0" type="field"/>
+      <column width="-1" name="SO4_n" hidden="0" type="field"/>
+      <column width="-1" name="S_25" hidden="0" type="field"/>
+      <column width="-1" name="S_50" hidden="0" type="field"/>
+      <column width="-1" name="S_75" hidden="0" type="field"/>
+      <column width="-1" name="SC_25" hidden="0" type="field"/>
+      <column width="-1" name="SC_50" hidden="0" type="field"/>
+      <column width="-1" name="SC_75" hidden="0" type="field"/>
+      <column width="-1" name="T_25" hidden="0" type="field"/>
+      <column width="-1" name="T_50" hidden="0" type="field"/>
+      <column width="-1" name="T_75" hidden="0" type="field"/>
+      <column width="-1" name="Y_25" hidden="0" type="field"/>
+      <column width="-1" name="Y_50" hidden="0" type="field"/>
+      <column width="-1" name="Y_75" hidden="0" type="field"/>
+      <column width="-1" name="Metadata" hidden="0" type="field"/>
+      <column width="-1" name="Publication_url" hidden="0" type="field"/>
+      <column width="-1" name="AqVersion" hidden="0" type="field"/>
+      <column width="-1" name="Published" hidden="0" type="field"/>
+      <column width="-1" hidden="1" type="actions"/>
+    </columns>
+  </attributetableconfig>
+  <conditionalstyles>
+    <rowstyles/>
+    <fieldstyles/>
+  </conditionalstyles>
+  <storedexpressions/>
+  <editform tolerant="1"></editform>
+  <editforminit/>
+  <editforminitcodesource>0</editforminitcodesource>
+  <editforminitfilepath></editforminitfilepath>
+  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+  <featformsuppress>0</featformsuppress>
+  <editorlayout>generatedlayout</editorlayout>
+  <editable>
+    <field name="Al_25" editable="1"/>
+    <field name="Al_50" editable="1"/>
+    <field name="Al_75" editable="1"/>
+    <field name="Al_n" editable="1"/>
+    <field name="AqVersion" editable="1"/>
+    <field name="Aq_Pro_Pot" editable="1"/>
+    <field name="Aq_Type" editable="1"/>
+    <field name="Aquifer" editable="1"/>
+    <field name="Aquifer_Age" editable="1"/>
+    <field name="Aquifer_Subgroup" editable="1"/>
+    <field name="Ca_25" editable="1"/>
+    <field name="Ca_50" editable="1"/>
+    <field name="Ca_75" editable="1"/>
+    <field name="Ca_n" editable="1"/>
+    <field name="Chemistry" editable="1"/>
+    <field name="Cl_25" editable="1"/>
+    <field name="Cl_50" editable="1"/>
+    <field name="Cl_75" editable="1"/>
+    <field name="Cl_n" editable="1"/>
+    <field name="Colour_RGB" editable="1"/>
+    <field name="DO_25" editable="1"/>
+    <field name="DO_50" editable="1"/>
+    <field name="DO_75" editable="1"/>
+    <field name="DO_n" editable="1"/>
+    <field name="Fe_25" editable="1"/>
+    <field name="Fe_50" editable="1"/>
+    <field name="Fe_75" editable="1"/>
+    <field name="Fe_n" editable="1"/>
+    <field name="Flow_Depth" editable="1"/>
+    <field name="Flow_Length" editable="1"/>
+    <field name="Flow_Rate" editable="1"/>
+    <field name="HCO3_25" editable="1"/>
+    <field name="HCO3_50" editable="1"/>
+    <field name="HCO3_75" editable="1"/>
+    <field name="HCO3_n" editable="1"/>
+    <field name="HC_25" editable="1"/>
+    <field name="HC_50" editable="1"/>
+    <field name="HC_75" editable="1"/>
+    <field name="K_25" editable="1"/>
+    <field name="K_50" editable="1"/>
+    <field name="K_75" editable="1"/>
+    <field name="K_n" editable="1"/>
+    <field name="Metadata" editable="1"/>
+    <field name="Mg_25" editable="1"/>
+    <field name="Mg_50" editable="1"/>
+    <field name="Mg_75" editable="1"/>
+    <field name="Mg_n" editable="1"/>
+    <field name="Mn_25" editable="1"/>
+    <field name="Mn_50" editable="1"/>
+    <field name="Mn_75" editable="1"/>
+    <field name="Mn_n" editable="1"/>
+    <field name="NO3_N_25" editable="1"/>
+    <field name="NO3_N_50" editable="1"/>
+    <field name="NO3_N_75" editable="1"/>
+    <field name="NO3_N_n" editable="1"/>
+    <field name="Na_25" editable="1"/>
+    <field name="Na_50" editable="1"/>
+    <field name="Na_75" editable="1"/>
+    <field name="Na_n" editable="1"/>
+    <field name="P_25" editable="1"/>
+    <field name="P_50" editable="1"/>
+    <field name="P_75" editable="1"/>
+    <field name="P_n" editable="1"/>
+    <field name="Por_25" editable="1"/>
+    <field name="Por_50" editable="1"/>
+    <field name="Por_75" editable="1"/>
+    <field name="Publication_url" editable="1"/>
+    <field name="Published" editable="1"/>
+    <field name="SC_25" editable="1"/>
+    <field name="SC_50" editable="1"/>
+    <field name="SC_75" editable="1"/>
+    <field name="SEC_25" editable="1"/>
+    <field name="SEC_50" editable="1"/>
+    <field name="SEC_70" editable="1"/>
+    <field name="SEC_n" editable="1"/>
+    <field name="SO4_25" editable="1"/>
+    <field name="SO4_50" editable="1"/>
+    <field name="SO4_75" editable="1"/>
+    <field name="SO4_n" editable="1"/>
+    <field name="S_25" editable="1"/>
+    <field name="S_50" editable="1"/>
+    <field name="S_75" editable="1"/>
+    <field name="T_25" editable="1"/>
+    <field name="T_50" editable="1"/>
+    <field name="T_75" editable="1"/>
+    <field name="Y_25" editable="1"/>
+    <field name="Y_50" editable="1"/>
+    <field name="Y_75" editable="1"/>
+    <field name="id" editable="1"/>
+    <field name="pH_25" editable="1"/>
+    <field name="pH_50" editable="1"/>
+    <field name="pH_75" editable="1"/>
+    <field name="pH_n" editable="1"/>
+  </editable>
+  <labelOnTop>
+    <field labelOnTop="0" name="Al_25"/>
+    <field labelOnTop="0" name="Al_50"/>
+    <field labelOnTop="0" name="Al_75"/>
+    <field labelOnTop="0" name="Al_n"/>
+    <field labelOnTop="0" name="AqVersion"/>
+    <field labelOnTop="0" name="Aq_Pro_Pot"/>
+    <field labelOnTop="0" name="Aq_Type"/>
+    <field labelOnTop="0" name="Aquifer"/>
+    <field labelOnTop="0" name="Aquifer_Age"/>
+    <field labelOnTop="0" name="Aquifer_Subgroup"/>
+    <field labelOnTop="0" name="Ca_25"/>
+    <field labelOnTop="0" name="Ca_50"/>
+    <field labelOnTop="0" name="Ca_75"/>
+    <field labelOnTop="0" name="Ca_n"/>
+    <field labelOnTop="0" name="Chemistry"/>
+    <field labelOnTop="0" name="Cl_25"/>
+    <field labelOnTop="0" name="Cl_50"/>
+    <field labelOnTop="0" name="Cl_75"/>
+    <field labelOnTop="0" name="Cl_n"/>
+    <field labelOnTop="0" name="Colour_RGB"/>
+    <field labelOnTop="0" name="DO_25"/>
+    <field labelOnTop="0" name="DO_50"/>
+    <field labelOnTop="0" name="DO_75"/>
+    <field labelOnTop="0" name="DO_n"/>
+    <field labelOnTop="0" name="Fe_25"/>
+    <field labelOnTop="0" name="Fe_50"/>
+    <field labelOnTop="0" name="Fe_75"/>
+    <field labelOnTop="0" name="Fe_n"/>
+    <field labelOnTop="0" name="Flow_Depth"/>
+    <field labelOnTop="0" name="Flow_Length"/>
+    <field labelOnTop="0" name="Flow_Rate"/>
+    <field labelOnTop="0" name="HCO3_25"/>
+    <field labelOnTop="0" name="HCO3_50"/>
+    <field labelOnTop="0" name="HCO3_75"/>
+    <field labelOnTop="0" name="HCO3_n"/>
+    <field labelOnTop="0" name="HC_25"/>
+    <field labelOnTop="0" name="HC_50"/>
+    <field labelOnTop="0" name="HC_75"/>
+    <field labelOnTop="0" name="K_25"/>
+    <field labelOnTop="0" name="K_50"/>
+    <field labelOnTop="0" name="K_75"/>
+    <field labelOnTop="0" name="K_n"/>
+    <field labelOnTop="0" name="Metadata"/>
+    <field labelOnTop="0" name="Mg_25"/>
+    <field labelOnTop="0" name="Mg_50"/>
+    <field labelOnTop="0" name="Mg_75"/>
+    <field labelOnTop="0" name="Mg_n"/>
+    <field labelOnTop="0" name="Mn_25"/>
+    <field labelOnTop="0" name="Mn_50"/>
+    <field labelOnTop="0" name="Mn_75"/>
+    <field labelOnTop="0" name="Mn_n"/>
+    <field labelOnTop="0" name="NO3_N_25"/>
+    <field labelOnTop="0" name="NO3_N_50"/>
+    <field labelOnTop="0" name="NO3_N_75"/>
+    <field labelOnTop="0" name="NO3_N_n"/>
+    <field labelOnTop="0" name="Na_25"/>
+    <field labelOnTop="0" name="Na_50"/>
+    <field labelOnTop="0" name="Na_75"/>
+    <field labelOnTop="0" name="Na_n"/>
+    <field labelOnTop="0" name="P_25"/>
+    <field labelOnTop="0" name="P_50"/>
+    <field labelOnTop="0" name="P_75"/>
+    <field labelOnTop="0" name="P_n"/>
+    <field labelOnTop="0" name="Por_25"/>
+    <field labelOnTop="0" name="Por_50"/>
+    <field labelOnTop="0" name="Por_75"/>
+    <field labelOnTop="0" name="Publication_url"/>
+    <field labelOnTop="0" name="Published"/>
+    <field labelOnTop="0" name="SC_25"/>
+    <field labelOnTop="0" name="SC_50"/>
+    <field labelOnTop="0" name="SC_75"/>
+    <field labelOnTop="0" name="SEC_25"/>
+    <field labelOnTop="0" name="SEC_50"/>
+    <field labelOnTop="0" name="SEC_70"/>
+    <field labelOnTop="0" name="SEC_n"/>
+    <field labelOnTop="0" name="SO4_25"/>
+    <field labelOnTop="0" name="SO4_50"/>
+    <field labelOnTop="0" name="SO4_75"/>
+    <field labelOnTop="0" name="SO4_n"/>
+    <field labelOnTop="0" name="S_25"/>
+    <field labelOnTop="0" name="S_50"/>
+    <field labelOnTop="0" name="S_75"/>
+    <field labelOnTop="0" name="T_25"/>
+    <field labelOnTop="0" name="T_50"/>
+    <field labelOnTop="0" name="T_75"/>
+    <field labelOnTop="0" name="Y_25"/>
+    <field labelOnTop="0" name="Y_50"/>
+    <field labelOnTop="0" name="Y_75"/>
+    <field labelOnTop="0" name="id"/>
+    <field labelOnTop="0" name="pH_25"/>
+    <field labelOnTop="0" name="pH_50"/>
+    <field labelOnTop="0" name="pH_75"/>
+    <field labelOnTop="0" name="pH_n"/>
+  </labelOnTop>
+  <reuseLastValue>
+    <field name="Al_25" reuseLastValue="0"/>
+    <field name="Al_50" reuseLastValue="0"/>
+    <field name="Al_75" reuseLastValue="0"/>
+    <field name="Al_n" reuseLastValue="0"/>
+    <field name="AqVersion" reuseLastValue="0"/>
+    <field name="Aq_Pro_Pot" reuseLastValue="0"/>
+    <field name="Aq_Type" reuseLastValue="0"/>
+    <field name="Aquifer" reuseLastValue="0"/>
+    <field name="Aquifer_Age" reuseLastValue="0"/>
+    <field name="Aquifer_Subgroup" reuseLastValue="0"/>
+    <field name="Ca_25" reuseLastValue="0"/>
+    <field name="Ca_50" reuseLastValue="0"/>
+    <field name="Ca_75" reuseLastValue="0"/>
+    <field name="Ca_n" reuseLastValue="0"/>
+    <field name="Chemistry" reuseLastValue="0"/>
+    <field name="Cl_25" reuseLastValue="0"/>
+    <field name="Cl_50" reuseLastValue="0"/>
+    <field name="Cl_75" reuseLastValue="0"/>
+    <field name="Cl_n" reuseLastValue="0"/>
+    <field name="Colour_RGB" reuseLastValue="0"/>
+    <field name="DO_25" reuseLastValue="0"/>
+    <field name="DO_50" reuseLastValue="0"/>
+    <field name="DO_75" reuseLastValue="0"/>
+    <field name="DO_n" reuseLastValue="0"/>
+    <field name="Fe_25" reuseLastValue="0"/>
+    <field name="Fe_50" reuseLastValue="0"/>
+    <field name="Fe_75" reuseLastValue="0"/>
+    <field name="Fe_n" reuseLastValue="0"/>
+    <field name="Flow_Depth" reuseLastValue="0"/>
+    <field name="Flow_Length" reuseLastValue="0"/>
+    <field name="Flow_Rate" reuseLastValue="0"/>
+    <field name="HCO3_25" reuseLastValue="0"/>
+    <field name="HCO3_50" reuseLastValue="0"/>
+    <field name="HCO3_75" reuseLastValue="0"/>
+    <field name="HCO3_n" reuseLastValue="0"/>
+    <field name="HC_25" reuseLastValue="0"/>
+    <field name="HC_50" reuseLastValue="0"/>
+    <field name="HC_75" reuseLastValue="0"/>
+    <field name="K_25" reuseLastValue="0"/>
+    <field name="K_50" reuseLastValue="0"/>
+    <field name="K_75" reuseLastValue="0"/>
+    <field name="K_n" reuseLastValue="0"/>
+    <field name="Metadata" reuseLastValue="0"/>
+    <field name="Mg_25" reuseLastValue="0"/>
+    <field name="Mg_50" reuseLastValue="0"/>
+    <field name="Mg_75" reuseLastValue="0"/>
+    <field name="Mg_n" reuseLastValue="0"/>
+    <field name="Mn_25" reuseLastValue="0"/>
+    <field name="Mn_50" reuseLastValue="0"/>
+    <field name="Mn_75" reuseLastValue="0"/>
+    <field name="Mn_n" reuseLastValue="0"/>
+    <field name="NO3_N_25" reuseLastValue="0"/>
+    <field name="NO3_N_50" reuseLastValue="0"/>
+    <field name="NO3_N_75" reuseLastValue="0"/>
+    <field name="NO3_N_n" reuseLastValue="0"/>
+    <field name="Na_25" reuseLastValue="0"/>
+    <field name="Na_50" reuseLastValue="0"/>
+    <field name="Na_75" reuseLastValue="0"/>
+    <field name="Na_n" reuseLastValue="0"/>
+    <field name="P_25" reuseLastValue="0"/>
+    <field name="P_50" reuseLastValue="0"/>
+    <field name="P_75" reuseLastValue="0"/>
+    <field name="P_n" reuseLastValue="0"/>
+    <field name="Por_25" reuseLastValue="0"/>
+    <field name="Por_50" reuseLastValue="0"/>
+    <field name="Por_75" reuseLastValue="0"/>
+    <field name="Publication_url" reuseLastValue="0"/>
+    <field name="Published" reuseLastValue="0"/>
+    <field name="SC_25" reuseLastValue="0"/>
+    <field name="SC_50" reuseLastValue="0"/>
+    <field name="SC_75" reuseLastValue="0"/>
+    <field name="SEC_25" reuseLastValue="0"/>
+    <field name="SEC_50" reuseLastValue="0"/>
+    <field name="SEC_70" reuseLastValue="0"/>
+    <field name="SEC_n" reuseLastValue="0"/>
+    <field name="SO4_25" reuseLastValue="0"/>
+    <field name="SO4_50" reuseLastValue="0"/>
+    <field name="SO4_75" reuseLastValue="0"/>
+    <field name="SO4_n" reuseLastValue="0"/>
+    <field name="S_25" reuseLastValue="0"/>
+    <field name="S_50" reuseLastValue="0"/>
+    <field name="S_75" reuseLastValue="0"/>
+    <field name="T_25" reuseLastValue="0"/>
+    <field name="T_50" reuseLastValue="0"/>
+    <field name="T_75" reuseLastValue="0"/>
+    <field name="Y_25" reuseLastValue="0"/>
+    <field name="Y_50" reuseLastValue="0"/>
+    <field name="Y_75" reuseLastValue="0"/>
+    <field name="id" reuseLastValue="0"/>
+    <field name="pH_25" reuseLastValue="0"/>
+    <field name="pH_50" reuseLastValue="0"/>
+    <field name="pH_75" reuseLastValue="0"/>
+    <field name="pH_n" reuseLastValue="0"/>
+  </reuseLastValue>
+  <dataDefinedFieldProperties/>
+  <widgets/>
+  <previewExpression>"Aquifer"</previewExpression>
+  <mapTip enabled="1"></mapTip>
+  <layerGeometryType>2</layerGeometryType>
+</qgis>
